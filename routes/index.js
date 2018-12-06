@@ -5,8 +5,9 @@ const campaigns = require("../lib/campaigns").campaigns;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	const campaignJSON = JSON.stringify(campaigns[Math.floor(Math.random() * Math.floor(campaigns.length))]);
-	const campaign = campaigns[Math.floor(Math.random() * Math.floor(campaigns.length))];
+	let randomNumber = Math.floor(Math.random() * Math.floor(campaigns.length));
+	const campaignJSON = JSON.stringify(campaigns[randomNumber]);
+	const campaign = campaigns[randomNumber];
 	res.render('index',{campaign: campaignJSON, noJson: campaign});
 });
 
