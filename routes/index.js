@@ -5,7 +5,8 @@ const campaigns = require("../lib/campaigns").campaigns;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	res.render('index',{campaign: campaigns[Math.floor(Math.random() * Math.floor(campaigns.length))]});
+	const campaignJSON = JSON.stringify(campaigns[Math.floor(Math.random() * Math.floor(campaigns.length))]);
+	res.render('index',{campaign: campaignJSON});
 });
 
 module.exports = router;
