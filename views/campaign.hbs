@@ -1,7 +1,10 @@
-<div class="image-container">
+<img class="arrow-img" src="/images/arrow.png">
+    <h1>{{{campaign.title}}}</h1>
+<div class="campaign-image-container">
     <img src="{{campaign.image}}" >
-    <script>
-        let c = JSON.parse('{{{campaign}}}');
-        setTimeout(function(){ alert(c.title); }, 2000);
-    </script>
+</div>
+<div>
+    <div class="text-content">
+     {{{campaign.fulltext}}}
+    </div>
 </div>
