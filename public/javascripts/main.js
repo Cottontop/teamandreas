@@ -7,9 +7,13 @@ window.onscroll = function () {
 function pushNotification() {
     let notification = document.getElementById('notification');
     notification.classList.add('active');
-    let audio = document.getElementById('audio');
-    audio.play();
 }
 setTimeout( function() {
     pushNotification();
-}, 2000)
+}, 2000);
+
+function playAudio() {
+    let audio = document.getElementById('audio');
+    audio.play();
+    console.log('You played audio');
+}

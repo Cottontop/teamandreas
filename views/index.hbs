@@ -1,10 +1,16 @@
 
-<div id="notification"></div>
-<audio id="audio" src="audio/andreasication.m4a" style="display:none;" muted="muted"></audio>
+<div id="notification" onclick="playAudio()"></div>
+<audio id="audio">
+    <source src="../public/audio/andreasication.m4a" type="audio/m4a">
+</audio>
 <div class="image-container">
     <img src="../images/startIphone_files/335452915.png" >
+<<<<<<< Updated upstream
     <script>
         let c = JSON.parse('{{{campaign}}}');
         setTimeout(function(){ alert(c.title); }, 2000);
     </script>
 </div>
+=======
+</div>
+>>>>>>> Stashed changes
