@@ -9,7 +9,27 @@ html, body {
   height: 100%;
   /*position: fixed;*/
   overflow: hidden;
-  font-family: "Open Sans", open-sans, sans-serif;
+  font-family: 'Telenor Light', 'Telenor Regular', Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Telenor Light";
+  /** ?#iefix or simply just ? to make the font work in IE 8 **/
+  src: url('https://static.telenor.no/frontend/fonts/EOT/TelenorLight.eot'); /* IE9 Compat Modes */
+  src: url('https://static.telenor.no/frontend/fonts/EOT/TelenorLight.eot?#iefix') format('embedded-opentype'), url('https://static.telenor.no/frontend/fonts/WOFF/TelenorLight.woff') format('woff'), url('https://static.telenor.no/frontend/fonts/TrueType/TelenorLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Telenor Regular';
+  /** ?#iefix or simply just ? to make the font work in IE 8 **/
+  src: url('https://static.telenor.no/frontend/fonts/EOT/Telenor.eot'); /* IE9 Compat Modes */
+  src: url('https://static.telenor.no/frontend/fonts/EOT/Telenor.eot?#iefix') format('embedded-opentype'), url('https://static.telenor.no/frontend/fonts/WOFF/Telenor.woff') format('woff'), url('https://static.telenor.no/frontend/fonts/TrueType/Telenor.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .image-container {
@@ -37,7 +57,8 @@ h3{
 }
 
 .text-content {
-  margin: 40px 20px 20px 20px;
+  margin: 40px 20px 20px 25px;
+  font-family: 'Telenor Regular', Helvetica, Arial, sans-serif;
 }
 
 .arrow-img {
