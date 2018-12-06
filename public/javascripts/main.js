@@ -5,9 +5,13 @@ window.onscroll = function () {
 }
 
 function pushNotification(campaign) {
-    let title = campaign.notification;
     let notification = document.getElementById('notification');
-    notification.innerHTML = title;
+    let title = document.createElement('span');
+    title.innerHTML = campaign.title;
+    notification.appendChild(title);
+    let body = document.createElement('div');
+    body.innerHTML = campaign.notification;
+    notification.appendChild(body);
     notification.classList.add('active');
 }
 

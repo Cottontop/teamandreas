@@ -8,6 +8,7 @@ html, body {
   width: 100%;
   height: 100%;
   /*position: fixed;*/
+
   overflow: hidden;
   font-family: 'Telenor Light', 'Telenor Regular', Helvetica, Arial, sans-serif;
 }
@@ -53,6 +54,11 @@ img {
   object-fit: cover;
 }
 
+img#telenor-logo {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
 h3{
   font-size: 20px;
 }
@@ -70,19 +76,19 @@ h3{
 
 #notification {
   position: absolute;
+  color: #222222;
   width: 0%;
-  height: 100px;
   top: 50%;
   left: 50%;
   border-radius: 10px;
   transform: translate(-50%,-50%);
   background-color: rgba(255, 255, 255, 0);
-
+  padding: 10px 20px 20px 20px;
 }
 
 #notification.active {
-  width: 90%;
-  background-color: rgba(255, 255, 255, 0.6);
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.8);
   transition: 0.2s ease-out;
 }
 
