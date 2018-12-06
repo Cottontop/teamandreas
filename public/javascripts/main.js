@@ -9,7 +9,6 @@ function pushNotification() {
     notification.classList.add('active');
     let audio = document.getElementById('audio');
     audio.play();
-
 }
 setTimeout( function() {
     pushNotification();
