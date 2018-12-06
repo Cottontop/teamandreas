@@ -4,16 +4,10 @@ window.onscroll = function () {
     window.scrollTo(0,0);
 }
 
-function pushNotification() {
+function pushNotification(campaign) {
+    let title = campaign.notification;
     let notification = document.getElementById('notification');
+    notification.innerHTML = title;
     notification.classList.add('active');
 }
-setTimeout( function() {
-    pushNotification();
-}, 2000);
 
-function playAudio() {
-    let audio = document.getElementById('audio');
-    audio.play();
-    console.log('You played audio');
-}
