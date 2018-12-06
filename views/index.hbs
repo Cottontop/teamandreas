@@ -1,14 +1,14 @@
-
-<a href="/campaign/?id={{noJson.id}}">
-    <div id="notification">
-        <img id="telenor-logo" src="../images/Telenor_logo-880x660.png" alt="telenor">
-    </div>
-    <div class="image-container">
+<div class="image-container">
         <img src="../images/startIphone_files/335452915.png" >
+        <a href="/campaign/?id={{noJson.id}}">
+            <div id="notification">
+                <img id="telenor-logo" src="../images/Telenor_logo-880x660.png" alt="telenor">
+            </div>
+        </a>
     </div>
     <script>
         let c = JSON.parse('{{{campaign}}}');
         setTimeout(function(){ pushNotification(c); }, 2000);
     </script>
-</a>
+
 
