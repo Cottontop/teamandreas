@@ -1,7 +1,7 @@
 [
   {
     "id":"60b72",
-    "notification":"Får du litt få matcher på Tinder? Da trenger du et bedre kamera på mobilen. Vi bundler nå Huawei P20  som har Leica-linser, med fri bruk av Tinder.",
+    "notification":"Vi ser på Facebook at du har byttet status til singel. Nå bundler vi Huawei P20, som har Leica-linser, med fri mobilbruk av Tinder.",
     "title":"Tinder + Ny Telefon",
     "image":"url",
   },
@@ -26,9 +26,8 @@ bundle med nettbrettholder for bil pluss ekstra data i påskeuken.",
   },
   {
     "id":"dfe819",
-    "notification":"Hei glade mosjonist! Nå trenger du ikke ha med iPhonen din på sykkelturen mer. Ta heller på en Apple Watch Nike edition, med
-Innebygd gps, og e-sim fra Telenor",
-    "title":"Sporty + Nike Apple Watch",
+    "notification":"Basert på data fra badevekta di, anbefaler vi Apple Watch Nike-edition. Kom i gang med et mer aktivt liv sammen med Telenor e-sim!",
+    "title":"Badevekt + Nike Apple Watch",
     "image":""
   },
   {
@@ -55,9 +54,5 @@ Innebygd gps, og e-sim fra Telenor",
     "title":"Mistet iPhjone i bakken?",
     "image":""
   },
-
-
-
-
 
 ]
