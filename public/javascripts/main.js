@@ -44,3 +44,24 @@ btnAdd.addEventListener('click', function(e)  {
       });
   });
 */
+
+function DetectIphone(){
+    let text1 = "";
+    let text2 = "";
+    let image = "";
+    let uagent = navigator.userAgent.toLowerCase();
+    if (uagent.search("iphone") > -1){
+         text1 = "Iphone"
+         text2 = "Trykk på det lille torget med pil oppover i midten av nettleseren. Velg Legg til i startskjermbildet.";
+         image = "../images/iphoneHow.jpg";
+    }
+    else{
+         text1 = "Android"
+         text2 = "Fra menyen, velg Legg til i startskjermbildet.";
+         image = "../images/androidImage.PNG";
+    }
+
+ document.getElementById("id01").innerHTML = text1;
+ document.getElementById("id02").innerHTML = text2;
+ document.getElementById("id03").src = image;
+ }
