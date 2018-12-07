@@ -58,7 +58,7 @@ function DetectIphone(){
     else{
          text1 = "Android"
          text2 = "Fra menyen, velg Legg til i startskjermbildet.";
-         image = "../images/androidImage.PNG";
+         image = "../images/androidImage.png";
     }
 
  document.getElementById("id01").innerHTML = text1;
