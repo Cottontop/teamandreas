@@ -1,18 +1,44 @@
-<div onload="DetectIphone()" class="init-top">
+<div class="init-top">
     <img id="telenor-logo" src="../images/Telenor_logo-880x660.png" alt="telenor">
 </div>
-
 <div class="init">
-<h2 id="id01">For Iphone</h2><br>
-<div id="id02" class="init">
-    Trykk på det lille torget med pil oppover i midten av nettleseren.
-    Velg Legg til i startskjermbildet.
-</div>
-<br><br>
-<img id="id03" src="../images/iphoneHow.jpg">
-<br><br>
-<h2>For Android</h2><br>
-Fra menyen, velg Legg til i startskjermbildet.<br><br>
-<img src="../images/androidImage.png">
-</div>
 
+    <body onload="DetectIphone()">
+    <script>
+        function DetectIphone(){
+            var text1 = "";
+            var text2 = "";
+            var image = "";
+            var uagent = navigator.userAgent.toLowerCase();
+            if (uagent.search("iphone") > -1){
+                text1 = "Iphone"
+                text2 = "Trykk på det lille torget med pil oppover i midten av nettleseren. Velg Legg til i startskjermbildet.";
+                image = "../images/iphoneHow.jpg";
+            }
+            else{
+                text1 = "Android"
+                text2 = "Fra menyen, velg Legg til i startskjermbildet.";
+                image = "../images/androidImage.PNG";
+            }
+
+            document.getElementById("id01").innerHTML = text1;
+            document.getElementById("id02").innerHTML = text2;
+            document.getElementById("id03").src = image;
+        }
+
+    </script>
+
+    <h2  id="id01">For Iphone</h2><br>
+    <div id="id02" class="init">Trykk på det lille torget med pil oppover i midten av nettleseren.
+        Velg Legg til i startskjermbildet.
+    </div>
+    <br><br>
+    <img  id="id03" src="../images/iphoneHow.jpg">
+
+
+    <br><br>
+    <h2>For Android</h2><br>
+    Fra menyen, velg Legg til i startskjermbildet.<br><br>
+    <img src="../images/androidImage.PNG">
+    </body>
+</div>
