@@ -9,7 +9,12 @@
     {
       "src": "./images/telenor-app-icon.png", 
       "type": "image/png", 
-      "sizes": "180x180"
+      "sizes": "192x192"
+    }, 
+    {
+      "src": "./images/telenor-app-icon.png", 
+      "type": "image/png", 
+      "sizes": "512x512"
     }
   ]
 }
