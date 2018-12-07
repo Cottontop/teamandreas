@@ -4,5 +4,12 @@
   "start_url": "https://teamandreas.herokuapp.com/",
   "background_color": "#000",
   "display": "standalone",
-  "theme_color": "#3367D6"
+  "theme_color": "#3367D6", 
+  "icons": [
+    {
+      "src": "./images/telenor-app-icon.png", 
+      "type": "image/png", 
+      "sizes": "180x180"
+    }
+  ]
 }
