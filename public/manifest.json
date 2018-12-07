@@ -7,12 +7,12 @@
   "theme_color": "#3367D6", 
   "icons": [
     {
-      "src": "./images/telenor-app-icon.png", 
+      "src": "/images/telenor-app-icon.png", 
       "type": "image/png", 
       "sizes": "192x192"
     }, 
     {
-      "src": "./images/telenor-app-icon.png", 
+      "src": "/images/telenor-app-icon.png", 
       "type": "image/png", 
       "sizes": "512x512"
     }
